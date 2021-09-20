@@ -5,8 +5,8 @@
 class Milk : public CondimentDecorator {
 public:
        Beverage *beverage;
-       Milk();
+       Milk(Beverage *beverage);
        char* getDescription(Beverage*);
        double cost();
-}             
+};             
          

@@ -1,15 +1,15 @@
 #include "beverage.h"
 #include "houseblend.h"
 #include "milk.h"
-//#include <iostream>
+#include <iostream>
 
-//using namespace std;
+using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
     Beverage *beverage = new HouseBlend();
-    //cout << beverage->getDescription() << " $" << beverage->cost();
+    cout << beverage->getDescription() << " $" << beverage->cost() << endl;
     
-    //system("PAUSE");
+    system("PAUSE");
     return 0;
 }

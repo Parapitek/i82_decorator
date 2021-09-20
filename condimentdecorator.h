@@ -3,5 +3,5 @@
 
 class CondimentDecorator : public Beverage {
 public:
-       virtual char* getDescription();
-}      
+       virtual char* getDescription() = 0;
+};      
